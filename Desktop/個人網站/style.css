@@ -74,20 +74,6 @@ body {
   background: rgba(44,95,138,0.08);
 }
 
-.lang-btn {
-  background: var(--primary);
-  color: white;
-  border: none;
-  padding: 0.4rem 1rem;
-  border-radius: 20px;
-  font-size: 0.85rem;
-  cursor: pointer;
-  transition: background 0.2s;
-}
-
-.lang-btn:hover {
-  background: var(--primary-light);
-}
 
 /* ===== Hero ===== */
 .hero {
