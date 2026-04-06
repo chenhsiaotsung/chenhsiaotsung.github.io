@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>陳孝宗 | Hsiao-Tsung Chen</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-name">陳孝宗</div>
+    <ul class="nav-links">
+      <li><a href="#about" data-zh="關於我" data-en="About">關於我</a></li>
+      <li><a href="#education" data-zh="學歷" data-en="Education">學歷</a></li>
+      <li><a href="#skills" data-zh="技能" data-en="Skills">技能</a></li>
+      <li><a href="#projects" data-zh="專案" data-en="Projects">專案</a></li>
+      <li><a href="#contact" data-zh="聯絡" data-en="Contact">聯絡</a></li>
+    </ul>
+    <button class="lang-btn" id="langBtn" onclick="toggleLang()">English</button>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="about">
+    <div class="hero-content">
+      <div class="profile-photo-wrapper">
+        <div class="profile-photo">
+          <i class="fa-solid fa-user"></i>
+          <p class="photo-hint" data-zh="請放置大頭照" data-en="Place your photo here">請放置大頭照</p>
+        </div>
+      </div>
+      <div class="hero-info">
+        <h1 class="name" data-zh="陳孝宗" data-en="Hsiao-Tsung Chen">陳孝宗</h1>
+        <p class="title" data-zh="國立台北大學 資訊管理研究所" data-en="Graduate Institute of Information Management, NTPU">國立台北大學 資訊管理研究所</p>
+        <p class="subtitle" data-zh="研究生" data-en="Graduate Student">研究生</p>
+        <div class="contact-links">
+          <a href="mailto:your@email.com" class="contact-btn">
+            <i class="fa-solid fa-envelope"></i>
+            <span data-zh="電子郵件" data-en="Email">電子郵件</span>
+          </a>
+          <a href="https://github.com/" target="_blank" class="contact-btn">
+            <i class="fa-brands fa-github"></i>
+            <span>GitHub</span>
+          </a>
+          <a href="https://linkedin.com/" target="_blank" class="contact-btn">
+            <i class="fa-brands fa-linkedin"></i>
+            <span>LinkedIn</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <i class="fa-solid fa-chevron-down"></i>
+    </div>
+  </section>
+
+  <!-- About Me -->
+  <section class="section" id="about-me">
+    <div class="container">
+      <h2 class="section-title" data-zh="關於我" data-en="About Me">關於我</h2>
+      <div class="about-text">
+        <p data-zh="嗨！我是陳孝宗，目前就讀國立台北大學資訊管理研究所。對資訊管理、資料分析以及軟體工程充滿熱情，致力於將所學應用於實際問題的解決。"
+           data-en="Hi! I'm Hsiao-Tsung Chen, currently pursuing a Master's degree at the Graduate Institute of Information Management, National Taipei University. Passionate about information management, data analysis, and software engineering.">
+          嗨！我是陳孝宗，目前就讀國立台北大學資訊管理研究所。對資訊管理、資料分析以及軟體工程充滿熱情，致力於將所學應用於實際問題的解決。
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section class="section section-alt" id="education">
+    <div class="container">
+      <h2 class="section-title" data-zh="學歷" data-en="Education">學歷</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-year">2024 – 至今</div>
+            <h3 data-zh="國立台北大學" data-en="National Taipei University">國立台北大學</h3>
+            <p data-zh="資訊管理研究所 碩士" data-en="M.S. in Information Management">資訊管理研究所 碩士</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-year">20XX – 20XX</div>
+            <h3 data-zh="大學學歷（請填寫）" data-en="Bachelor's Degree (please fill in)">大學學歷（請填寫）</h3>
+            <p data-zh="科系名稱" data-en="Department Name">科系名稱</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="section" id="skills">
+    <div class="container">
+      <h2 class="section-title" data-zh="技能" data-en="Skills">技能</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3><i class="fa-solid fa-code"></i> <span data-zh="程式語言" data-en="Programming">程式語言</span></h3>
+          <div class="skill-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Java</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">SQL</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fa-solid fa-chart-bar"></i> <span data-zh="資料分析" data-en="Data Analysis">資料分析</span></h3>
+          <div class="skill-tags">
+            <span class="tag">Pandas</span>
+            <span class="tag">NumPy</span>
+            <span class="tag">Matplotlib</span>
+            <span class="tag">Scikit-learn</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fa-solid fa-tools"></i> <span data-zh="工具" data-en="Tools">工具</span></h3>
+          <div class="skill-tags">
+            <span class="tag">Git</span>
+            <span class="tag">GitHub</span>
+            <span class="tag">VS Code</span>
+            <span class="tag">Jupyter</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section section-alt" id="projects">
+    <div class="container">
+      <h2 class="section-title" data-zh="專案" data-en="Projects">專案</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-icon"><i class="fa-solid fa-globe"></i></div>
+          <h3 data-zh="個人網站" data-en="Personal Website">個人網站</h3>
+          <p data-zh="使用 HTML、CSS 和 JavaScript 建立的個人作品集網站，部署於 GitHub Pages。"
+             data-en="Personal portfolio website built with HTML, CSS, and JavaScript, deployed on GitHub Pages.">
+            使用 HTML、CSS 和 JavaScript 建立的個人作品集網站，部署於 GitHub Pages。
+          </p>
+          <div class="project-tags">
+            <span class="tag small">HTML</span>
+            <span class="tag small">CSS</span>
+            <span class="tag small">JavaScript</span>
+          </div>
+          <a href="#" class="project-link"><i class="fa-brands fa-github"></i> GitHub</a>
+        </div>
+        <div class="project-card placeholder-card">
+          <div class="project-icon"><i class="fa-solid fa-plus"></i></div>
+          <h3 data-zh="新增專案" data-en="Add Project">新增專案</h3>
+          <p data-zh="請在此新增你的專案內容。" data-en="Add your project details here.">請在此新增你的專案內容。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section" id="contact">
+    <div class="container">
+      <h2 class="section-title" data-zh="聯絡我" data-en="Contact Me">聯絡我</h2>
+      <div class="contact-grid">
+        <div class="contact-item">
+          <i class="fa-solid fa-envelope"></i>
+          <div>
+            <p class="contact-label" data-zh="電子郵件" data-en="Email">電子郵件</p>
+            <a href="mailto:your@email.com">your@email.com</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <i class="fa-brands fa-github"></i>
+          <div>
+            <p class="contact-label">GitHub</p>
+            <a href="https://github.com/" target="_blank">github.com/your-username</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <i class="fa-solid fa-location-dot"></i>
+          <div>
+            <p class="contact-label" data-zh="所在地" data-en="Location">所在地</p>
+            <span data-zh="台灣・新北市" data-en="New Taipei City, Taiwan">台灣・新北市</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 陳孝宗 · <span data-zh="國立台北大學 資訊管理研究所" data-en="NTPU Information Management">國立台北大學 資訊管理研究所</span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
